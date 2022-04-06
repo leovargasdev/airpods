@@ -1,3 +1,8 @@
+@import url('./main.css');
+@import url('./content-text.css');
+@import url('./content-info.css');
+@import url('./navigation.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +23,7 @@
 
 :root {
   --color-background: #fff; 
+  
   --color-primary: #332F3D; 
   --color-secondary: #C7C3D2; 
   --color-tertiary: #8B90A7;
@@ -25,8 +31,15 @@
   --color-silver: #EEEBED;
 }
 
+body {
+  background: var(--color-background);
+}
+
 body, button, textarea, input {
-  font: 500 1rem, Helvetica, sans-serif;
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Helvetica, sans-serif;
 }
 
 a {

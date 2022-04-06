@@ -1,0 +1,43 @@
+.content-text {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+ }
+
+.content-text h2 {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+.content-text h1 {
+  font-size: 2rem;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  letter-spacing: 0.02em;
+
+  margin: 10px 0 38px;
+  width: 100%;
+  max-width: 330px;
+}
+
+.content-text button {
+  width: 218px;
+  height: 50px;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: 0.05em;
+
+  border-radius: 90px;
+  border: 1px solid var(--color-secondary);
+  background: transparent;
+
+  transition: 0.4s all;
+}
+
+.content-text button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+}
