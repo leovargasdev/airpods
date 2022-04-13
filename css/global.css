@@ -2,6 +2,7 @@
 @import url('./content-text.css');
 @import url('./content-info.css');
 @import url('./navigation.css');
+@import url('./phones.css');
 
 * {
   margin: 0;
@@ -31,7 +32,12 @@
   --color-silver: #EEEBED;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  overflow: hidden;
   background: var(--color-background);
 }
 

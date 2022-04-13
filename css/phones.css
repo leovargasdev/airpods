@@ -1,0 +1,34 @@
+.fones {
+  inset: 0;
+  position: absolute;
+  margin: auto;
+}
+
+#section-1 .fones {
+  width: auto;
+  height: 300px;
+}
+
+#section-1 .fones.left {
+  top: 150px;
+  left: 0;
+  right: 170px;
+  bottom : 0;
+}
+
+#section-1 .fones.right {
+  left: 100px;
+  right: 0;
+  top: 0;
+  bottom: 150px;
+}
+
+#section-2 .fones {
+  width: 450px;
+  padding-bottom: 110px;
+}
+
+#section-3 .fones {
+  width: 540px;
+  padding-right: 60px;
+}

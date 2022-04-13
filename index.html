@@ -10,6 +10,8 @@
 </head>
 <body>
   <div class="container">
+    <div class="background"></div>
+
     <header>
       <img src="./public/logo.svg" alt="Logo nao">
       <button class="button-menu">
@@ -17,41 +19,50 @@
       </button>
     </header>
 
-    <main>
-      <aside class="navigation">
-        <p>1/3</p>
-        <div class="progress-bar">
-          <span></span>
-        </div>
-        <button type="button">
-          <img src="./public/icons/arrow-up.svg" alt="">
-        </button>
-        <button type="button">
-          <img src="./public/icons/arrow-down.svg" alt="">
-        </button>
-      </aside>
-
-      <img class="fones left" src="./public/fone-1.png" alt="Fone da esquerda">
-      <img class="fones right" src="./public/fone-2.png" alt="Fone da direita ">
-
-      <div class="content">
-        <div class="content-text">
-          <h2>NEW DEFINITION OF SOUND</h2>
-          <h1>Turn up the volume</h1>
-          <button type="button">DETAILS</button>
-        </div>
-  
-        <div class="content-info">
-          <img src="./public/avatar.png" alt="Imagem do avatar">
-          <strong>Check the box</strong>
-          <p>SEE WHAT&apos;S INSIDE</p>
-  
-          <button type="button">
-            <img src="./public/button.png" alt="">
-          </button>
-        </div>
+    <aside class="navigation">
+      <p id="sections-counter">1/3</p>
+      <div class="progress-bar">
+        <span id="bar"></span>
       </div>
-    </main>
+      <button type="button" onclick="handleNavigation(-1)">
+        <img src="./public/icons/arrow-up.svg" alt="">
+      </button>
+      <button type="button" onclick="handleNavigation(1)">
+        <img src="./public/icons/arrow-down.svg" alt="">
+      </button>
+    </aside>
+
+    <section id="section-1">
+      <img class="fones left" src="./public/fones/section-1-fone-1.png" alt="Fone da esquerda">
+      <img class="fones right" src="./public/fones/section-1-fone-2.png" alt="Fone da direita">
+    </section>
+
+    <section id="section-2">
+      <img class="fones" src="./public/fones/section-2.png" alt="Fone da direita">
+    </section>
+
+    <section id="section-3">
+      <img class="fones" src="./public/fones/section-3.png" alt="Fone da direita">
+    </section>
+
+    <footer class="content">
+      <div class="content-text">
+        <h2>NEW DEFINITION OF SOUND</h2>
+        <h1>Turn up the volume</h1>
+        <button type="button">DETAILS</button>
+      </div>
+
+      <div class="content-info">
+        <img src="./public/avatar.png" alt="Imagem do avatar">
+        <strong>Check the box</strong>
+        <p>SEE WHAT&apos;S INSIDE</p>
+
+        <button type="button">
+          <img src="./public/button.png" alt="">
+        </button>
+      </div>
+    </footer>
   </div>
+  <script src="./index.js"></script>
 </body>
 </html>

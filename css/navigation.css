@@ -6,9 +6,15 @@
   align-self: flex-end;
   row-gap: 10px;
 
-  height: 100%;
   width: 20px;
-  padding-top: 150px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  right: 84px;
+  padding-bottom: 100px;
+
+  z-index: 10;
 }
 
 .navigation p {
@@ -28,6 +34,8 @@
   width: 100%;
   height: 45%;
   background: var(--color-primary);
+
+  transition: height 1s;
 }
 
 .navigation button {
@@ -39,4 +47,8 @@
   height: 8px;
   border: 0;
   background: transparent;
+}
+
+.navigation button {
+  cursor: pointer;
 }
