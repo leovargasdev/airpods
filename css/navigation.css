@@ -52,3 +52,15 @@
 .navigation button {
   cursor: pointer;
 }
+
+@media(max-width: 1080px) {
+  .navigation {
+    right: 40px;
+  }
+}
+
+@media(max-width: 650px) {
+  .navigation {
+    right: 24px;
+  }
+}

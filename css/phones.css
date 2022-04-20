@@ -32,3 +32,55 @@
   width: 540px;
   padding-right: 60px;
 }
+
+@media(max-width: 768px) {
+  #section-1 .fones {
+    height: 220px;
+  }
+
+  #section-1 .fones.left {
+    top: 81px;
+    right: 94px;
+  }
+
+  #section-1 .fones.right {
+    left: 105px;
+    bottom: 105px;
+  }
+
+  #section-2 .fones {
+    width: 375px;
+    padding-bottom: 16px;
+  }
+
+  #section-3 .fones {
+    width: 375px;
+    padding-right: 45px;
+  }
+}
+
+@media(max-width: 650px) {
+  #section-1 .fones {
+    height: 150px;
+  }
+
+  #section-1 .fones.left {
+    top: 55px;
+    right: 74px;
+  }
+
+  #section-1 .fones.right {
+    left: 64px;
+    bottom: 100px;
+  }
+
+  #section-2 .fones {
+    width: 250px;
+    padding-bottom: 0;
+  }
+
+  #section-3 .fones {
+    width: 290px;
+    padding-right: 36px;
+  }
+}
